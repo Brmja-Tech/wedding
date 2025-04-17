@@ -15,7 +15,7 @@
   .hero {
     background: url('../assest/Untitled-12 1.png') no-repeat center center/cover;
     height: 100vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
     position: relative;
     color: white;
   }
@@ -59,8 +59,8 @@
       font-size: 1rem;
     }
     .time-box {
-        width: 55px;
-        height: 55px;
+        width: 60px;
+        height: 60px;
         font-size: 0.6rem;
         padding: 2px;
       }
