@@ -77,6 +77,27 @@
       padding: 0.5rem 1rem;
     }
   }
+  @media (max-width: 300px) {
+  
+    .time-box {
+        width: 48px;
+        height: 48px;
+        font-size: 0.5rem;
+        padding: 2px;
+      }
+    
+      .time-box span:first-child {
+        font-size: 0.9rem;
+      }
+
+      .time-box span:last-child {
+        font-size: 0.6rem; 
+      }
+    .btn {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
 
   @media (max-width: 576px) {
     .hero {
