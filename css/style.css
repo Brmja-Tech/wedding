@@ -72,6 +72,16 @@
     }
   }
 
+  @media (max-width: 576px) {
+    .hero {
+      background: url('../assest/IMG_2085 1.png') no-repeat center center/cover;
+      background-attachment: scroll; 
+    }
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5); 
+      }
+  }
+
 
 
   .save-the-date-section {
