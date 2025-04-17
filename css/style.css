@@ -59,18 +59,18 @@
       font-size: 1rem;
     }
     .time-box {
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         font-size: 0.6rem;
         padding: 2px;
       }
     
       .time-box span:first-child {
-        font-size: 0.9rem;
+        font-size: 1rem;
       }
 
       .time-box span:last-child {
-        font-size: 0.5rem; 
+        font-size: 0.6rem; 
       }
     .btn {
       font-size: 0.9rem;
