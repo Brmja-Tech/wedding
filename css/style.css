@@ -261,6 +261,29 @@
     color: #fff;
 
   }
+
+  .fancy-select {
+    background-color: #fff0f5;
+    border: 2px solid #f14e95;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: 600;
+    color: #444;
+    font-size: 1rem;
+    box-shadow: 0 5px 15px rgba(241, 78, 149, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .fancy-select:focus {
+    outline: none;
+    border-color: #f14e95;
+    box-shadow: 0 0 0 4px rgba(241, 78, 149, 0.2);
+  }
+  
+  .fancy-select option {
+    padding: 10px;
+  }
+  
   
   /* Responsive Tweaks */
   @media (max-width: 768px) {
