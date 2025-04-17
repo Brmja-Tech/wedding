@@ -1,0 +1,214 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background: url('../assest/Untitled-12 1.png') no-repeat center center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  .content {
+    z-index: 1;
+  }
+  
+  h1 {
+    font-family: 'Merriweather', serif;
+  }
+  
+  .time-box {
+    width: 90px;
+    height: 90px;
+    font-size: 1rem;
+  }
+
+  .time-box span:first-child {
+    font-size: 1.5rem;
+  }
+  .bg-timer{
+    background-color: #F14E95CC;
+  }
+
+  @media (max-width: 400px) {
+    h1.display-3 {
+      font-size: 2rem;
+    }
+    .subtitle {
+      font-size: 1rem;
+    }
+    .time-box {
+      width: 60px;
+      height: 60px;
+      font-size: 0.8rem;
+    }
+    .time-box span:first-child {
+      font-size: 1.2rem;
+    }
+    .btn {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+
+
+
+  .save-the-date-section {
+    background: url('../assest/2148427829\ 1.png') no-repeat center center/cover;
+    height: 60vh;
+    position: relative;
+    padding: 2rem;
+  }
+  
+  .save-the-date-section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    z-index: 0;
+  }
+  
+  .save-the-date-section .container {
+    z-index: 1;
+  }
+  
+  .special-title {
+    font-family: 'Great Vibes', cursive;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .special-title::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #F14E95CC;
+    border-radius: 2px;
+  }
+
+  .venue-text {
+    font-size: 1.5rem; 
+    line-height: 1.8;
+  }
+  .arabic-text {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: center;
+  }
+
+  .text-english{
+    font-family: "Sacramento", cursive;
+
+  }
+  
+  
+  @media (max-width: 768px) {
+    .venue-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .venue-text {
+      font-size: 1rem;
+    }
+  }
+
+  
+
+
+
+
+
+
+  .attending-section {
+    height: auto;
+    min-height: 80vh;
+    background: url('../assest/1790\ 1.png') no-repeat center center/cover;
+    position: relative;
+    padding: 4rem 0;
+  }
+  
+  .attending-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  .attending-content {
+    z-index: 1;
+  }
+  
+  .attending-section .special-title {
+    font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  .attending-section .form-control {
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    text-align: start !important; 
+  }
+  .attending-section textarea.form-control {
+    resize: none;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 1.1rem; 
+  }
+
+  .text-name{
+    border-radius: 1.1rem; 
+
+  }
+  
+  
+  .attending-section .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #F14E95CC;
+    border-radius: 1.1rem; 
+    color: #fff;
+
+  }
+  
+  /* Responsive Tweaks */
+  @media (max-width: 768px) {
+    .attending-section .special-title {
+      font-size: 2.5rem;
+    }
+  
+    .attending-section .btn {
+      font-size: 1rem;
+      padding: 0.6rem 1.2rem;
+    }
+  }
+  
